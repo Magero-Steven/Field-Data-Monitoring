@@ -1,4 +1,5 @@
 # Field-Data-Monitoring
+![Field Data Dashboard](assets/dashboard.png)
 CAPI-based Field Data Monitoring System for GPS, paradata tracking, data quality assurance, and real-time survey validation using Python and dashboard to
 ### Features
 - GPS & timestamp (paradata) validation
