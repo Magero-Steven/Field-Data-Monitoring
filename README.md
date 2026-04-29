@@ -6,10 +6,13 @@ CAPI-based Field Data Monitoring System for GPS, paradata tracking, data quality
 - Data quality checks (duration, consent, sync issues)
 - Enumerator performance tracking
 - Dashboard visualization (Power BI/Tableau)
-
+---
 ### Tools
+
+- Excel-Data Sorting/Preview
+- Tableau - Dashbords/Reports
 - Python (Pandas)
-- Power BI / Tableau
+---
 
 ### Key Insights
 - Identified anomalous submissions using duration thresholds
