@@ -31,6 +31,8 @@ CAPI-based Field Data Monitoring System for GPS, paradata tracking, data quality
 
 ### Key Insights
 - Identified anomalous submissions using duration thresholds
+- Detected sync failures affecting data completeness
+- Monitored enumerator performance for quality control
 ---
 Python 
 The csv fie is loaded ready for analysis 
@@ -53,5 +55,4 @@ The csv fie is loaded ready for analysis
 )
 
 ```
-- Detected sync failures affecting data completeness
-- Monitored enumerator performance for quality control
+
