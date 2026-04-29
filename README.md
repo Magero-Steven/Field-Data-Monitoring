@@ -34,9 +34,9 @@ CAPI-based Field Data Monitoring System for GPS, paradata tracking, data quality
 - Detected sync failures affecting data completeness
 - Monitored enumerator performance for quality control
 ---
-Python 
+#### Python 
 The csv fie is loaded ready for analysis 
-```
+```Python
     import pandas as pd
 
 # Load data
