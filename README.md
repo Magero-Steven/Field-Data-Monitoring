@@ -1,12 +1,27 @@
 # Field-Data-Monitoring
 ![Field Data Dashboard](https://github.com/Magero-Steven/Field-Data-Monitoring/blob/ed680191fb917cb72854570861d4e9bc655b5629/Data%20Quality%20Image.png)
-CAPI-based Field Data Monitoring System for GPS, paradata tracking, data quality assurance, and real-time survey validation using Python and dashboard to
+CAPI-based Field Data Monitoring System for GPS, paradata tracking, data quality assurance, and real-time survey validation using Python and dashboard to ascertai quality .
 ### Features
 - GPS & timestamp (paradata) validation
 - Data quality checks (duration, consent, sync issues)
 - Enumerator performance tracking
 - Dashboard visualization (Power BI/Tableau)
 ---
+### 🗂️ Synthetic Dataset
+
+- File: `/data/field_data_600_records.csv`
+- Sample size: 600 participants
+- Variables:
+  - `enumerator_id`
+  - `submission_id` 
+  - `gps_lat` (Lattitude)
+  - `gps_long` (Longitude)
+  - `start_time`
+  - `end_time`
+  - `duration_minutes`
+  - `consent`
+  - `household_id`
+  - `sync_status`
 ### Tools
 
 - Excel-Data Sorting/Preview
