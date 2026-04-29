@@ -16,5 +16,27 @@ CAPI-based Field Data Monitoring System for GPS, paradata tracking, data quality
 
 ### Key Insights
 - Identified anomalous submissions using duration thresholds
+---
+Python 
+The csv fie is loaded ready for analysis 
+```
+    import pandas as pd
+
+# Load data
+    df = pd.read_csv("field_data.csv")
+
+# Convert time columns
+    df['start_time'] = pd.to_datetime(df['start_time'])
+    df['end_time'] = pd.to_datetime(df['end_time'])
+
+# Data Quality Checks
+    print("🔍 Missing Values:\n", df.isnull().sum())
+
+# Flag suspicious durations (<10 min or >40 min)
+    df['duration_flag'] = df['duration_minutes'].apply(
+        lambda x: "Suspicious" if x < 10 or x > 40 else "Normal"
+)
+
+```
 - Detected sync failures affecting data completeness
 - Monitored enumerator performance for quality control
